@@ -10,7 +10,7 @@ import { ToastContainer } from "react-toastify";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
-  <BrowserRouter>
+  <BrowserRouter basename="/shopping_buddy_cart">
       <Provider store={Store}>
         <App />
         <ToastContainer/>
